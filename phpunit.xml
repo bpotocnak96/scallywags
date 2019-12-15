@@ -37,9 +37,9 @@
         <env name="APP_ENV" value="testing"/>
         <env name="DB_CONNECTION" value="mysql"/>
 
-        <env name="DB_DATABASE" value="scallywags"/>
-        <env name="DB_USERNAME" value="scallywags"/>
-        <env name="DB_PASSWORD" value='Jr3M")H|MN'/>
+        <env name="DB_DATABASE" value="scally21"/>
+        <env name="DB_USERNAME" value="scally21"/>
+        <env name="DB_PASSWORD" value="Ae6jWWua}}"/>
         <env name="DB_HOST" value='mariadb103.websupport.sk'/>
 
         <env name="DB_PORT" value="3313"/>
