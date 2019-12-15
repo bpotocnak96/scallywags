@@ -9,12 +9,12 @@
          processIsolation="false"
          stopOnFailure="false">
     <testsuites>
-        <!--<testsuite name="Unit">-->
-            <!--<directory suffix="DatabaseTest.php">./tests/Unit</directory>-->
-        <!--</testsuite>-->
+        <testsuite name="Unit">
+            <directory suffix="Test.php">./tests/Unit</directory>
+        </testsuite>
 
         <testsuite name="Feature">
-            <directory suffix="FakeTest.php">./tests/Feature</directory>
+            <directory suffix="Test.php">./tests/Feature</directory>
         </testsuite>
     </testsuites>
     <filter>
@@ -36,12 +36,13 @@
     <php>
         <env name="APP_ENV" value="testing"/>
         <env name="DB_CONNECTION" value="mysql"/>
+
         <env name="DB_DATABASE" value="scallywags"/>
         <env name="DB_USERNAME" value="scallywags"/>
-        <env name="DB_PASSWORD" value="scallywags"/>
-        <env name="DB_CONNECTION" value="mysql"/>
-        <env name="DB_DATABASE" value="scallywags"/>
-        <env name="DB_PORT" value="3306"/>
+        <env name="DB_PASSWORD" value='Jr3M")H|MN'/>
+        <env name="DB_HOST" value='mariadb103.websupport.sk'/>
+
+        <env name="DB_PORT" value="3313"/>
         <env name="BCRYPT_ROUNDS" value="4"/>
         <env name="CACHE_DRIVER" value="array"/>
         <env name="MAIL_DRIVER" value="array"/>
