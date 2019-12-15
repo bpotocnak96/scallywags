@@ -1,1 +1,2 @@
-hello
+<?php
+header('Location: public/');
