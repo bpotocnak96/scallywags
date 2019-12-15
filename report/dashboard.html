@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <title>Dashboard for /Applications/MAMP/htdocs/scallywags/app</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href=".css/bootstrap.min.css" rel="stylesheet" type="text/css">
+  <link href=".css/nv.d3.min.css" rel="stylesheet" type="text/css">
+  <link href=".css/style.css" rel="stylesheet" type="text/css">
+  <link href=".css/custom.css" rel="stylesheet" type="text/css">
+ </head>
+ <body>
+  <header>
+   <div class="container-fluid">
+    <div class="row">
+     <div class="col-md-12">
+      <nav aria-label="breadcrumb">
+       <ol class="breadcrumb">
+         <li class="breadcrumb-item"><a href="index.html">/Applications/MAMP/htdocs/scallywags/app</a></li>
+         <li class="breadcrumb-item active">(Dashboard)</li>
+
+       </ol>
+      </nav>
+     </div>
+    </div>
+   </div>
+  </header>
+  <div class="container-fluid">
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Classes</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="classCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="classComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Http/Controllers/Auth/ForgotPasswordController.php.html#8">App\Http\Controllers\Auth\ForgotPasswordController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/RegisterController.php.html#11">App\Http\Controllers\Auth\RegisterController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/ResetPasswordController.php.html#8">App\Http\Controllers\Auth\ResetPasswordController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/VerificationController.php.html#8">App\Http\Controllers\Auth\VerificationController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/DashboardController.php.html#8">App\Http\Controllers\DashboardController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/RedirectIfAuthenticated.php.html#8">App\Http\Middleware\RedirectIfAuthenticated</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/LoginController.php.html#9">App\Http\Controllers\Auth\LoginController</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BroadcastServiceProvider.php.html#8">App\Providers\BroadcastServiceProvider</a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Rules/Recaptcha.php.html#8">App\Rules\Recaptcha</a></td><td class="text-right">14%</td></tr>
+       <tr><td><a href="Http/Controllers/BestReplyController.php.html#9">App\Http\Controllers\BestReplyController</a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="Policies/ThreadPolicy.php.html#9">App\Policies\ThreadPolicy</a></td><td class="text-right">37%</td></tr>
+       <tr><td><a href="Http/Controllers/ThreadSubscriptionController.php.html#9">App\Http\Controllers\ThreadSubscriptionController</a></td><td class="text-right">44%</td></tr>
+       <tr><td><a href="Policies/ThreadReplyPolicy.php.html#9">App\Policies\ThreadReplyPolicy</a></td><td class="text-right">44%</td></tr>
+       <tr><td><a href="ThreadSubscription.php.html#7">App\ThreadSubscription</a></td><td class="text-right">50%</td></tr>
+       <tr><td><a href="Providers/TelescopeServiceProvider.php.html#10">App\Providers\TelescopeServiceProvider</a></td><td class="text-right">52%</td></tr>
+       <tr><td><a href="Notifications/UserMentioned.php.html#10">App\Notifications\UserMentioned</a></td><td class="text-right">55%</td></tr>
+       <tr><td><a href="Notifications/ThreadRepliedTo.php.html#10">App\Notifications\ThreadRepliedTo</a></td><td class="text-right">63%</td></tr>
+       <tr><td><a href="User.php.html#11">App\User</a></td><td class="text-right">71%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Class</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Policies/ThreadPolicy.php.html#9">App\Policies\ThreadPolicy</a></td><td class="text-right">34</td></tr>
+       <tr><td><a href="Http/Controllers/BestReplyController.php.html#9">App\Http\Controllers\BestReplyController</a></td><td class="text-right">33</td></tr>
+       <tr><td><a href="Policies/ThreadReplyPolicy.php.html#9">App\Policies\ThreadReplyPolicy</a></td><td class="text-right">22</td></tr>
+       <tr><td><a href="Providers/TelescopeServiceProvider.php.html#10">App\Providers\TelescopeServiceProvider</a></td><td class="text-right">14</td></tr>
+       <tr><td><a href="Http/Middleware/RedirectIfAuthenticated.php.html#8">App\Http\Middleware\RedirectIfAuthenticated</a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-12">
+     <h2>Methods</h2>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Coverage Distribution</h3>
+     <div id="methodCoverageDistribution" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Complexity</h3>
+     <div id="methodComplexity" style="height: 300px;">
+       <svg></svg>
+     </div>
+    </div>
+   </div>
+   <div class="row">
+    <div class="col-md-6">
+     <h3>Insufficient Coverage</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right">Coverage</th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Http/Controllers/Auth/ForgotPasswordController.php.html#28"><abbr title="App\Http\Controllers\Auth\ForgotPasswordController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Policies/ThreadReplyPolicy.php.html#70"><abbr title="App\Policies\ThreadReplyPolicy::restore">restore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Notifications/ThreadRepliedTo.php.html#42"><abbr title="App\Notifications\ThreadRepliedTo::toMail">toMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Notifications/UserMentioned.php.html#43"><abbr title="App\Notifications\UserMentioned::toMail">toMail</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Policies/ThreadPolicy.php.html#20"><abbr title="App\Policies\ThreadPolicy::view">view</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Policies/ThreadPolicy.php.html#31"><abbr title="App\Policies\ThreadPolicy::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Policies/ThreadPolicy.php.html#55"><abbr title="App\Policies\ThreadPolicy::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Policies/ThreadPolicy.php.html#67"><abbr title="App\Policies\ThreadPolicy::restore">restore</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Policies/ThreadPolicy.php.html#79"><abbr title="App\Policies\ThreadPolicy::forceDelete">forceDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Policies/ThreadReplyPolicy.php.html#20"><abbr title="App\Policies\ThreadReplyPolicy::view">view</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Policies/ThreadReplyPolicy.php.html#58"><abbr title="App\Policies\ThreadReplyPolicy::delete">delete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Policies/ThreadReplyPolicy.php.html#82"><abbr title="App\Policies\ThreadReplyPolicy::forceDelete">forceDelete</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/LoginController.php.html#36"><abbr title="App\Http\Controllers\Auth\LoginController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Policies/ThreadReplyPolicy.php.html#87"><abbr title="App\Policies\ThreadReplyPolicy::favourite">favourite</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/BroadcastServiceProvider.php.html#15"><abbr title="App\Providers\BroadcastServiceProvider::boot">boot</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Rules/Recaptcha.php.html#27"><abbr title="App\Rules\Recaptcha::passes">passes</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Rules/Recaptcha.php.html#41"><abbr title="App\Rules\Recaptcha::message">message</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Rules/SpamFree.php.html#40"><abbr title="App\Rules\SpamFree::message">message</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="ThreadSubscription.php.html#15"><abbr title="App\ThreadSubscription::thread">thread</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User.php.html#35"><abbr title="App\User::threadsWithGS">threadsWithGS</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User.php.html#39"><abbr title="App\User::repliesWithGS">repliesWithGS</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User.php.html#59"><abbr title="App\User::subscriptions">subscriptions</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="User.php.html#63"><abbr title="App\User::allPublic">allPublic</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Middleware/RedirectIfAuthenticated.php.html#18"><abbr title="App\Http\Middleware\RedirectIfAuthenticated::handle">handle</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ThreadsController.php.html#103"><abbr title="App\Http\Controllers\ThreadsController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ThreadsController.php.html#51"><abbr title="App\Http\Controllers\ThreadsController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ThreadSubscriptionController.php.html#74"><abbr title="App\Http\Controllers\ThreadSubscriptionController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/LoginController.php.html#41"><abbr title="App\Http\Controllers\Auth\LoginController::logout">logout</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/RegisterController.php.html#38"><abbr title="App\Http\Controllers\Auth\RegisterController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/RegisterController.php.html#49"><abbr title="App\Http\Controllers\Auth\RegisterController::validator">validator</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/RegisterController.php.html#64"><abbr title="App\Http\Controllers\Auth\RegisterController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/ResetPasswordController.php.html#35"><abbr title="App\Http\Controllers\Auth\ResetPasswordController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/Auth/VerificationController.php.html#35"><abbr title="App\Http\Controllers\Auth\VerificationController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/BestReplyController.php.html#16"><abbr title="App\Http\Controllers\BestReplyController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/BestReplyController.php.html#26"><abbr title="App\Http\Controllers\BestReplyController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/BestReplyController.php.html#52"><abbr title="App\Http\Controllers\BestReplyController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/BestReplyController.php.html#63"><abbr title="App\Http\Controllers\BestReplyController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/BestReplyController.php.html#75"><abbr title="App\Http\Controllers\BestReplyController::update">update</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/BestReplyController.php.html#86"><abbr title="App\Http\Controllers\BestReplyController::destroy">destroy</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/DashboardController.php.html#10"><abbr title="App\Http\Controllers\DashboardController::__construct">__construct</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/DashboardController.php.html#13"><abbr title="App\Http\Controllers\DashboardController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ThreadReplyController.php.html#21"><abbr title="App\Http\Controllers\ThreadReplyController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ThreadReplyController.php.html#31"><abbr title="App\Http\Controllers\ThreadReplyController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ThreadReplyController.php.html#83"><abbr title="App\Http\Controllers\ThreadReplyController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ThreadSubscriptionController.php.html#19"><abbr title="App\Http\Controllers\ThreadSubscriptionController::index">index</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ThreadSubscriptionController.php.html#29"><abbr title="App\Http\Controllers\ThreadSubscriptionController::create">create</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ThreadSubscriptionController.php.html#51"><abbr title="App\Http\Controllers\ThreadSubscriptionController::show">show</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Http/Controllers/ThreadSubscriptionController.php.html#62"><abbr title="App\Http\Controllers\ThreadSubscriptionController::edit">edit</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Favourable.php.html#73"><abbr title="Favourable::getFavouritesCountAttribute">getFavouritesCountAttribute</abbr></a></td><td class="text-right">0%</td></tr>
+       <tr><td><a href="Providers/TelescopeServiceProvider.php.html#17"><abbr title="App\Providers\TelescopeServiceProvider::register">register</abbr></a></td><td class="text-right">33%</td></tr>
+       <tr><td><a href="Providers/TelescopeServiceProvider.php.html#62"><abbr title="App\Providers\TelescopeServiceProvider::gate">gate</abbr></a></td><td class="text-right">50%</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+    <div class="col-md-6">
+     <h3>Project Risks</h3>
+     <div class="scrollbox">
+      <table class="table">
+       <thead>
+        <tr>
+         <th>Method</th>
+         <th class="text-right"><abbr title="Change Risk Anti-Patterns (CRAP) Index">CRAP</abbr></th>
+        </tr>
+       </thead>
+       <tbody>
+       <tr><td><a href="Providers/TelescopeServiceProvider.php.html#17"><abbr title="App\Providers\TelescopeServiceProvider::register">register</abbr></a></td><td class="text-right">12</td></tr>
+       <tr><td><a href="Http/Middleware/RedirectIfAuthenticated.php.html#18"><abbr title="App\Http\Middleware\RedirectIfAuthenticated::handle">handle</abbr></a></td><td class="text-right">6</td></tr>
+
+       </tbody>
+      </table>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <hr/>
+    <p>
+     <small>Generated by <a href="https://github.com/sebastianbergmann/php-code-coverage" target="_top">php-code-coverage 6.1.4</a> using <a href="https://secure.php.net/" target="_top">PHP 7.2.6</a> with <a href="https://xdebug.org/">Xdebug 3.0.0-dev</a> and <a href="https://phpunit.de/">PHPUnit 7.4.3</a> at Sun Dec 15 1:55:05 UTC 2019.</small>
+    </p>
+   </footer>
+  </div>
+  <script src=".js/jquery.min.js" type="text/javascript"></script>
+  <script src=".js/d3.min.js" type="text/javascript"></script>
+  <script src=".js/nv.d3.min.js" type="text/javascript"></script>
+  <script type="text/javascript">
+$(document).ready(function() {
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#classCoverageDistribution svg')
+      .datum(getCoverageDistributionData([8,0,1,0,2,2,3,1,1,2,2,37], "Class Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.multiBarChart();
+    chart.tooltips(false)
+      .showControls(false)
+      .showLegend(false)
+      .reduceXTicks(false)
+      .staggerLabels(true)
+      .yAxis.tickFormat(d3.format('d'));
+
+    d3.select('#methodCoverageDistribution svg')
+      .datum(getCoverageDistributionData([49,0,0,0,1,0,1,0,0,1,1,134], "Method Coverage"))
+      .transition().duration(500).call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getCoverageDistributionData(data, label) {
+    var labels = [
+      '0%',
+      '0-10%',
+      '10-20%',
+      '20-30%',
+      '30-40%',
+      '40-50%',
+      '50-60%',
+      '60-70%',
+      '70-80%',
+      '80-90%',
+      '90-100%',
+      '100%'
+    ];
+    var values = [];
+    $.each(labels, function(key) {
+      values.push({x: labels[key], y: data[key]});
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Cyclomatic Complexity');
+
+    d3.select('#classComplexity svg')
+      .datum(getComplexityData([[100,2,"<a href=\"Category.php.html#7\">App\\Category<\/a>"],[100,2,"<a href=\"Console\/Kernel.php.html#8\">App\\Console\\Kernel<\/a>"],[100,1,"<a href=\"Events\/ThreadReplyCreated.php.html#10\">App\\Events\\ThreadReplyCreated<\/a>"],[100,2,"<a href=\"Exceptions\/Handler.php.html#8\">App\\Exceptions\\Handler<\/a>"],[100,2,"<a href=\"Favourite.php.html#7\">App\\Favourite<\/a>"],[100,5,"<a href=\"Filters\/Filter.php.html#8\">App\\Filters\\Filter<\/a>"],[100,3,"<a href=\"Filters\/ThreadFilter.php.html#10\">App\\Filters\\ThreadFilter<\/a>"],[100,1,"<a href=\"ForumActivity.php.html#7\">App\\ForumActivity<\/a>"],[100,2,"<a href=\"Http\/Controllers\/Api\/AvatarController.php.html#8\">App\\Http\\Controllers\\Api\\AvatarController<\/a>"],[100,1,"<a href=\"Http\/Controllers\/Api\/UsersController.php.html#8\">App\\Http\\Controllers\\Api\\UsersController<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/ForgotPasswordController.php.html#8\">App\\Http\\Controllers\\Auth\\ForgotPasswordController<\/a>"],[0,2,"<a href=\"Http\/Controllers\/Auth\/LoginController.php.html#9\">App\\Http\\Controllers\\Auth\\LoginController<\/a>"],[0,3,"<a href=\"Http\/Controllers\/Auth\/RegisterController.php.html#11\">App\\Http\\Controllers\\Auth\\RegisterController<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/ResetPasswordController.php.html#8\">App\\Http\\Controllers\\Auth\\ResetPasswordController<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/VerificationController.php.html#8\">App\\Http\\Controllers\\Auth\\VerificationController<\/a>"],[33.33333333333333,9,"<a href=\"Http\/Controllers\/BestReplyController.php.html#9\">App\\Http\\Controllers\\BestReplyController<\/a>"],[100,0,"<a href=\"Http\/Controllers\/Controller.php.html#10\">App\\Http\\Controllers\\Controller<\/a>"],[0,2,"<a href=\"Http\/Controllers\/DashboardController.php.html#8\">App\\Http\\Controllers\\DashboardController<\/a>"],[100,6,"<a href=\"Http\/Controllers\/FavouriteController.php.html#10\">App\\Http\\Controllers\\FavouriteController<\/a>"],[100,2,"<a href=\"Http\/Controllers\/ProfileController.php.html#8\">App\\Http\\Controllers\\ProfileController<\/a>"],[85.71428571428571,12,"<a href=\"Http\/Controllers\/ThreadReplyController.php.html#11\">App\\Http\\Controllers\\ThreadReplyController<\/a>"],[44.44444444444444,8,"<a href=\"Http\/Controllers\/ThreadSubscriptionController.php.html#9\">App\\Http\\Controllers\\ThreadSubscriptionController<\/a>"],[95.65217391304348,16,"<a href=\"Http\/Controllers\/ThreadsController.php.html#13\">App\\Http\\Controllers\\ThreadsController<\/a>"],[100,4,"<a href=\"Http\/Controllers\/UserNotificationController.php.html#7\">App\\Http\\Controllers\\UserNotificationController<\/a>"],[100,0,"<a href=\"Http\/Kernel.php.html#7\">App\\Http\\Kernel<\/a>"],[100,2,"<a href=\"Http\/Middleware\/Admin.php.html#7\">App\\Http\\Middleware\\Admin<\/a>"],[100,2,"<a href=\"Http\/Middleware\/Authenticate.php.html#7\">App\\Http\\Middleware\\Authenticate<\/a>"],[100,0,"<a href=\"Http\/Middleware\/CheckForMaintenanceMode.php.html#7\">App\\Http\\Middleware\\CheckForMaintenanceMode<\/a>"],[100,0,"<a href=\"Http\/Middleware\/EncryptCookies.php.html#7\">App\\Http\\Middleware\\EncryptCookies<\/a>"],[0,2,"<a href=\"Http\/Middleware\/RedirectIfAuthenticated.php.html#8\">App\\Http\\Middleware\\RedirectIfAuthenticated<\/a>"],[100,0,"<a href=\"Http\/Middleware\/TrimStrings.php.html#7\">App\\Http\\Middleware\\TrimStrings<\/a>"],[100,0,"<a href=\"Http\/Middleware\/TrustProxies.php.html#8\">App\\Http\\Middleware\\TrustProxies<\/a>"],[100,0,"<a href=\"Http\/Middleware\/VerifyCsrfToken.php.html#7\">App\\Http\\Middleware\\VerifyCsrfToken<\/a>"],[100,3,"<a href=\"Inspections\/InvalidKeywords.php.html#4\">App\\Inspections\\InvalidKeywords<\/a>"],[100,2,"<a href=\"Inspections\/KeyHeldDown.php.html#4\">App\\Inspections\\KeyHeldDown<\/a>"],[100,2,"<a href=\"Inspections\/Spam.php.html#4\">App\\Inspections\\Spam<\/a>"],[100,4,"<a href=\"Listeners\/NotifyMentionedUsers.php.html#9\">App\\Listeners\\NotifyMentionedUsers<\/a>"],[100,4,"<a href=\"Listeners\/NotifySubscribedUsers.php.html#9\">App\\Listeners\\NotifySubscribedUsers<\/a>"],[63.63636363636363,4,"<a href=\"Notifications\/ThreadRepliedTo.php.html#10\">App\\Notifications\\ThreadRepliedTo<\/a>"],[55.55555555555556,4,"<a href=\"Notifications\/UserMentioned.php.html#10\">App\\Notifications\\UserMentioned<\/a>"],[37.5,10,"<a href=\"Policies\/ThreadPolicy.php.html#9\">App\\Policies\\ThreadPolicy<\/a>"],[44.44444444444444,9,"<a href=\"Policies\/ThreadReplyPolicy.php.html#9\">App\\Policies\\ThreadReplyPolicy<\/a>"],[100,2,"<a href=\"Providers\/AppServiceProvider.php.html#7\">App\\Providers\\AppServiceProvider<\/a>"],[100,2,"<a href=\"Providers\/AuthServiceProvider.php.html#8\">App\\Providers\\AuthServiceProvider<\/a>"],[0,1,"<a href=\"Providers\/BroadcastServiceProvider.php.html#8\">App\\Providers\\BroadcastServiceProvider<\/a>"],[100,1,"<a href=\"Providers\/EventServiceProvider.php.html#12\">App\\Providers\\EventServiceProvider<\/a>"],[100,4,"<a href=\"Providers\/RouteServiceProvider.php.html#8\">App\\Providers\\RouteServiceProvider<\/a>"],[52.63157894736842,8,"<a href=\"Providers\/TelescopeServiceProvider.php.html#10\">App\\Providers\\TelescopeServiceProvider<\/a>"],[100,2,"<a href=\"Providers\/ViewServiceProvider.php.html#8\">App\\Providers\\ViewServiceProvider<\/a>"],[14.285714285714285,3,"<a href=\"Rules\/Recaptcha.php.html#8\">App\\Rules\\Recaptcha<\/a>"],[80,4,"<a href=\"Rules\/SpamFree.php.html#7\">App\\Rules\\SpamFree<\/a>"],[100,26,"<a href=\"Thread.php.html#8\">App\\Thread<\/a>"],[100,12,"<a href=\"ThreadReply.php.html#7\">App\\ThreadReply<\/a>"],[50,2,"<a href=\"ThreadSubscription.php.html#7\">App\\ThreadSubscription<\/a>"],[100,4,"<a href=\"Trending.php.html#7\">app\\Trending<\/a>"],[71.42857142857143,12,"<a href=\"User.php.html#11\">App\\User<\/a>"],[94.44444444444444,10,"<a href=\"Favourable.php.html#4\">Favourable<\/a>"],[100,3,"<a href=\"RecordsActivity.php.html#4\">RecordsActivity<\/a>"],[100,2,"<a href=\"Reputation.php.html#4\">Reputation<\/a>"]], 'Class Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  nv.addGraph(function() {
+    var chart = nv.models.scatterChart()
+      .showDistX(true)
+      .showDistY(true)
+      .showLegend(false)
+      .forceX([0, 100]);
+    chart.tooltipContent(function(graph) {
+      return '<p>' + graph.point.class + '</p>';
+    });
+
+    chart.xAxis.axisLabel('Code Coverage (in percent)');
+    chart.yAxis.axisLabel('Method Complexity');
+
+    d3.select('#methodComplexity svg')
+      .datum(getComplexityData([[100,1,"<a href=\"Category.php.html#9\">App\\Category::getRouteKeyName<\/a>"],[100,1,"<a href=\"Category.php.html#12\">App\\Category::threads<\/a>"],[100,1,"<a href=\"Console\/Kernel.php.html#25\">App\\Console\\Kernel::schedule<\/a>"],[100,1,"<a href=\"Console\/Kernel.php.html#36\">App\\Console\\Kernel::commands<\/a>"],[100,1,"<a href=\"Events\/ThreadReplyCreated.php.html#19\">App\\Events\\ThreadReplyCreated::__construct<\/a>"],[100,1,"<a href=\"Exceptions\/Handler.php.html#35\">App\\Exceptions\\Handler::report<\/a>"],[100,1,"<a href=\"Exceptions\/Handler.php.html#47\">App\\Exceptions\\Handler::render<\/a>"],[100,1,"<a href=\"Favourite.php.html#11\">App\\Favourite::boot<\/a>"],[100,1,"<a href=\"Favourite.php.html#19\">App\\Favourite::favourited<\/a>"],[100,1,"<a href=\"Filters\/Filter.php.html#14\">App\\Filters\\Filter::__construct<\/a>"],[100,3,"<a href=\"Filters\/Filter.php.html#18\">App\\Filters\\Filter::apply<\/a>"],[100,1,"<a href=\"Filters\/Filter.php.html#32\">App\\Filters\\Filter::getFilters<\/a>"],[100,1,"<a href=\"Filters\/ThreadFilter.php.html#14\">App\\Filters\\ThreadFilter::u<\/a>"],[100,1,"<a href=\"Filters\/ThreadFilter.php.html#18\">App\\Filters\\ThreadFilter::popular<\/a>"],[100,1,"<a href=\"Filters\/ThreadFilter.php.html#22\">App\\Filters\\ThreadFilter::unanswered<\/a>"],[100,1,"<a href=\"ForumActivity.php.html#11\">App\\ForumActivity::subject<\/a>"],[100,1,"<a href=\"Http\/Controllers\/Api\/AvatarController.php.html#10\">App\\Http\\Controllers\\Api\\AvatarController::__construct<\/a>"],[100,1,"<a href=\"Http\/Controllers\/Api\/AvatarController.php.html#14\">App\\Http\\Controllers\\Api\\AvatarController::store<\/a>"],[100,1,"<a href=\"Http\/Controllers\/Api\/UsersController.php.html#10\">App\\Http\\Controllers\\Api\\UsersController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/ForgotPasswordController.php.html#28\">App\\Http\\Controllers\\Auth\\ForgotPasswordController::__construct<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/LoginController.php.html#36\">App\\Http\\Controllers\\Auth\\LoginController::__construct<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/LoginController.php.html#41\">App\\Http\\Controllers\\Auth\\LoginController::logout<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/RegisterController.php.html#38\">App\\Http\\Controllers\\Auth\\RegisterController::__construct<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/RegisterController.php.html#49\">App\\Http\\Controllers\\Auth\\RegisterController::validator<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/RegisterController.php.html#64\">App\\Http\\Controllers\\Auth\\RegisterController::create<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/ResetPasswordController.php.html#35\">App\\Http\\Controllers\\Auth\\ResetPasswordController::__construct<\/a>"],[0,1,"<a href=\"Http\/Controllers\/Auth\/VerificationController.php.html#35\">App\\Http\\Controllers\\Auth\\VerificationController::__construct<\/a>"],[0,1,"<a href=\"Http\/Controllers\/BestReplyController.php.html#16\">App\\Http\\Controllers\\BestReplyController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/BestReplyController.php.html#26\">App\\Http\\Controllers\\BestReplyController::create<\/a>"],[100,3,"<a href=\"Http\/Controllers\/BestReplyController.php.html#37\">App\\Http\\Controllers\\BestReplyController::store<\/a>"],[0,1,"<a href=\"Http\/Controllers\/BestReplyController.php.html#52\">App\\Http\\Controllers\\BestReplyController::show<\/a>"],[0,1,"<a href=\"Http\/Controllers\/BestReplyController.php.html#63\">App\\Http\\Controllers\\BestReplyController::edit<\/a>"],[0,1,"<a href=\"Http\/Controllers\/BestReplyController.php.html#75\">App\\Http\\Controllers\\BestReplyController::update<\/a>"],[0,1,"<a href=\"Http\/Controllers\/BestReplyController.php.html#86\">App\\Http\\Controllers\\BestReplyController::destroy<\/a>"],[0,1,"<a href=\"Http\/Controllers\/DashboardController.php.html#10\">App\\Http\\Controllers\\DashboardController::__construct<\/a>"],[0,1,"<a href=\"Http\/Controllers\/DashboardController.php.html#13\">App\\Http\\Controllers\\DashboardController::index<\/a>"],[100,1,"<a href=\"Http\/Controllers\/FavouriteController.php.html#12\">App\\Http\\Controllers\\FavouriteController::__construct<\/a>"],[100,1,"<a href=\"Http\/Controllers\/FavouriteController.php.html#16\">App\\Http\\Controllers\\FavouriteController::index<\/a>"],[100,1,"<a href=\"Http\/Controllers\/FavouriteController.php.html#21\">App\\Http\\Controllers\\FavouriteController::storeThread<\/a>"],[100,1,"<a href=\"Http\/Controllers\/FavouriteController.php.html#24\">App\\Http\\Controllers\\FavouriteController::storeReply<\/a>"],[100,1,"<a href=\"Http\/Controllers\/FavouriteController.php.html#28\">App\\Http\\Controllers\\FavouriteController::destroyThread<\/a>"],[100,1,"<a href=\"Http\/Controllers\/FavouriteController.php.html#31\">App\\Http\\Controllers\\FavouriteController::destroyReply<\/a>"],[100,1,"<a href=\"Http\/Controllers\/ProfileController.php.html#11\">App\\Http\\Controllers\\ProfileController::__construct<\/a>"],[100,1,"<a href=\"Http\/Controllers\/ProfileController.php.html#14\">App\\Http\\Controllers\\ProfileController::show<\/a>"],[100,1,"<a href=\"Http\/Controllers\/ThreadReplyController.php.html#13\">App\\Http\\Controllers\\ThreadReplyController::__construct<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ThreadReplyController.php.html#21\">App\\Http\\Controllers\\ThreadReplyController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ThreadReplyController.php.html#31\">App\\Http\\Controllers\\ThreadReplyController::create<\/a>"],[91.66666666666666,4,"<a href=\"Http\/Controllers\/ThreadReplyController.php.html#41\">App\\Http\\Controllers\\ThreadReplyController::store<\/a>"],[100,1,"<a href=\"Http\/Controllers\/ThreadReplyController.php.html#72\">App\\Http\\Controllers\\ThreadReplyController::show<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ThreadReplyController.php.html#83\">App\\Http\\Controllers\\ThreadReplyController::edit<\/a>"],[100,2,"<a href=\"Http\/Controllers\/ThreadReplyController.php.html#94\">App\\Http\\Controllers\\ThreadReplyController::update<\/a>"],[100,1,"<a href=\"Http\/Controllers\/ThreadReplyController.php.html#113\">App\\Http\\Controllers\\ThreadReplyController::destroy<\/a>"],[100,1,"<a href=\"Http\/Controllers\/ThreadSubscriptionController.php.html#11\">App\\Http\\Controllers\\ThreadSubscriptionController::__construct<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ThreadSubscriptionController.php.html#19\">App\\Http\\Controllers\\ThreadSubscriptionController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ThreadSubscriptionController.php.html#29\">App\\Http\\Controllers\\ThreadSubscriptionController::create<\/a>"],[100,1,"<a href=\"Http\/Controllers\/ThreadSubscriptionController.php.html#40\">App\\Http\\Controllers\\ThreadSubscriptionController::store<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ThreadSubscriptionController.php.html#51\">App\\Http\\Controllers\\ThreadSubscriptionController::show<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ThreadSubscriptionController.php.html#62\">App\\Http\\Controllers\\ThreadSubscriptionController::edit<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ThreadSubscriptionController.php.html#74\">App\\Http\\Controllers\\ThreadSubscriptionController::update<\/a>"],[100,1,"<a href=\"Http\/Controllers\/ThreadSubscriptionController.php.html#85\">App\\Http\\Controllers\\ThreadSubscriptionController::destroy<\/a>"],[100,1,"<a href=\"Http\/Controllers\/ThreadsController.php.html#15\">App\\Http\\Controllers\\ThreadsController::__construct<\/a>"],[100,3,"<a href=\"Http\/Controllers\/ThreadsController.php.html#23\">App\\Http\\Controllers\\ThreadsController::index<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ThreadsController.php.html#51\">App\\Http\\Controllers\\ThreadsController::create<\/a>"],[100,1,"<a href=\"Http\/Controllers\/ThreadsController.php.html#62\">App\\Http\\Controllers\\ThreadsController::store<\/a>"],[100,3,"<a href=\"Http\/Controllers\/ThreadsController.php.html#83\">App\\Http\\Controllers\\ThreadsController::show<\/a>"],[0,1,"<a href=\"Http\/Controllers\/ThreadsController.php.html#103\">App\\Http\\Controllers\\ThreadsController::edit<\/a>"],[100,1,"<a href=\"Http\/Controllers\/ThreadsController.php.html#115\">App\\Http\\Controllers\\ThreadsController::update<\/a>"],[100,1,"<a href=\"Http\/Controllers\/ThreadsController.php.html#131\">App\\Http\\Controllers\\ThreadsController::destroy<\/a>"],[100,1,"<a href=\"Http\/Controllers\/ThreadsController.php.html#143\">App\\Http\\Controllers\\ThreadsController::lock<\/a>"],[100,1,"<a href=\"Http\/Controllers\/ThreadsController.php.html#153\">App\\Http\\Controllers\\ThreadsController::unlock<\/a>"],[100,1,"<a href=\"Http\/Controllers\/ThreadsController.php.html#163\">App\\Http\\Controllers\\ThreadsController::pin<\/a>"],[100,1,"<a href=\"Http\/Controllers\/ThreadsController.php.html#173\">App\\Http\\Controllers\\ThreadsController::unpin<\/a>"],[100,1,"<a href=\"Http\/Controllers\/UserNotificationController.php.html#9\">App\\Http\\Controllers\\UserNotificationController::__construct<\/a>"],[100,1,"<a href=\"Http\/Controllers\/UserNotificationController.php.html#13\">App\\Http\\Controllers\\UserNotificationController::index<\/a>"],[100,1,"<a href=\"Http\/Controllers\/UserNotificationController.php.html#16\">App\\Http\\Controllers\\UserNotificationController::destroyAll<\/a>"],[100,1,"<a href=\"Http\/Controllers\/UserNotificationController.php.html#19\">App\\Http\\Controllers\\UserNotificationController::destroy<\/a>"],[100,2,"<a href=\"Http\/Middleware\/Admin.php.html#16\">App\\Http\\Middleware\\Admin::handle<\/a>"],[100,2,"<a href=\"Http\/Middleware\/Authenticate.php.html#15\">App\\Http\\Middleware\\Authenticate::redirectTo<\/a>"],[0,2,"<a href=\"Http\/Middleware\/RedirectIfAuthenticated.php.html#18\">App\\Http\\Middleware\\RedirectIfAuthenticated::handle<\/a>"],[100,3,"<a href=\"Inspections\/InvalidKeywords.php.html#8\">App\\Inspections\\InvalidKeywords::detect<\/a>"],[100,2,"<a href=\"Inspections\/KeyHeldDown.php.html#5\">App\\Inspections\\KeyHeldDown::detect<\/a>"],[100,2,"<a href=\"Inspections\/Spam.php.html#9\">App\\Inspections\\Spam::detect<\/a>"],[100,1,"<a href=\"Listeners\/NotifyMentionedUsers.php.html#16\">App\\Listeners\\NotifyMentionedUsers::__construct<\/a>"],[100,3,"<a href=\"Listeners\/NotifyMentionedUsers.php.html#27\">App\\Listeners\\NotifyMentionedUsers::handle<\/a>"],[100,1,"<a href=\"Listeners\/NotifySubscribedUsers.php.html#16\">App\\Listeners\\NotifySubscribedUsers::__construct<\/a>"],[100,3,"<a href=\"Listeners\/NotifySubscribedUsers.php.html#27\">App\\Listeners\\NotifySubscribedUsers::handle<\/a>"],[100,1,"<a href=\"Notifications\/ThreadRepliedTo.php.html#19\">App\\Notifications\\ThreadRepliedTo::__construct<\/a>"],[100,1,"<a href=\"Notifications\/ThreadRepliedTo.php.html#31\">App\\Notifications\\ThreadRepliedTo::via<\/a>"],[0,1,"<a href=\"Notifications\/ThreadRepliedTo.php.html#42\">App\\Notifications\\ThreadRepliedTo::toMail<\/a>"],[100,1,"<a href=\"Notifications\/ThreadRepliedTo.php.html#56\">App\\Notifications\\ThreadRepliedTo::toArray<\/a>"],[100,1,"<a href=\"Notifications\/UserMentioned.php.html#19\">App\\Notifications\\UserMentioned::__construct<\/a>"],[100,1,"<a href=\"Notifications\/UserMentioned.php.html#31\">App\\Notifications\\UserMentioned::via<\/a>"],[0,1,"<a href=\"Notifications\/UserMentioned.php.html#43\">App\\Notifications\\UserMentioned::toMail<\/a>"],[100,1,"<a href=\"Notifications\/UserMentioned.php.html#57\">App\\Notifications\\UserMentioned::toArray<\/a>"],[0,1,"<a href=\"Policies\/ThreadPolicy.php.html#20\">App\\Policies\\ThreadPolicy::view<\/a>"],[0,1,"<a href=\"Policies\/ThreadPolicy.php.html#31\">App\\Policies\\ThreadPolicy::create<\/a>"],[100,3,"<a href=\"Policies\/ThreadPolicy.php.html#43\">App\\Policies\\ThreadPolicy::update<\/a>"],[0,1,"<a href=\"Policies\/ThreadPolicy.php.html#55\">App\\Policies\\ThreadPolicy::delete<\/a>"],[0,1,"<a href=\"Policies\/ThreadPolicy.php.html#67\">App\\Policies\\ThreadPolicy::restore<\/a>"],[0,1,"<a href=\"Policies\/ThreadPolicy.php.html#79\">App\\Policies\\ThreadPolicy::forceDelete<\/a>"],[100,1,"<a href=\"Policies\/ThreadPolicy.php.html#84\">App\\Policies\\ThreadPolicy::favourite<\/a>"],[100,1,"<a href=\"Policies\/ThreadPolicy.php.html#88\">App\\Policies\\ThreadPolicy::subscribe<\/a>"],[0,1,"<a href=\"Policies\/ThreadReplyPolicy.php.html#20\">App\\Policies\\ThreadReplyPolicy::view<\/a>"],[100,2,"<a href=\"Policies\/ThreadReplyPolicy.php.html#31\">App\\Policies\\ThreadReplyPolicy::create<\/a>"],[100,2,"<a href=\"Policies\/ThreadReplyPolicy.php.html#46\">App\\Policies\\ThreadReplyPolicy::update<\/a>"],[0,1,"<a href=\"Policies\/ThreadReplyPolicy.php.html#58\">App\\Policies\\ThreadReplyPolicy::delete<\/a>"],[0,1,"<a href=\"Policies\/ThreadReplyPolicy.php.html#70\">App\\Policies\\ThreadReplyPolicy::restore<\/a>"],[0,1,"<a href=\"Policies\/ThreadReplyPolicy.php.html#82\">App\\Policies\\ThreadReplyPolicy::forceDelete<\/a>"],[0,1,"<a href=\"Policies\/ThreadReplyPolicy.php.html#87\">App\\Policies\\ThreadReplyPolicy::favourite<\/a>"],[100,1,"<a href=\"Providers\/AppServiceProvider.php.html#14\">App\\Providers\\AppServiceProvider::boot<\/a>"],[100,1,"<a href=\"Providers\/AppServiceProvider.php.html#24\">App\\Providers\\AppServiceProvider::register<\/a>"],[100,2,"<a href=\"Providers\/AuthServiceProvider.php.html#25\">App\\Providers\\AuthServiceProvider::boot<\/a>"],[0,1,"<a href=\"Providers\/BroadcastServiceProvider.php.html#15\">App\\Providers\\BroadcastServiceProvider::boot<\/a>"],[100,1,"<a href=\"Providers\/EventServiceProvider.php.html#34\">App\\Providers\\EventServiceProvider::boot<\/a>"],[100,1,"<a href=\"Providers\/RouteServiceProvider.php.html#24\">App\\Providers\\RouteServiceProvider::boot<\/a>"],[100,1,"<a href=\"Providers\/RouteServiceProvider.php.html#36\">App\\Providers\\RouteServiceProvider::map<\/a>"],[100,1,"<a href=\"Providers\/RouteServiceProvider.php.html#52\">App\\Providers\\RouteServiceProvider::mapWebRoutes<\/a>"],[100,1,"<a href=\"Providers\/RouteServiceProvider.php.html#66\">App\\Providers\\RouteServiceProvider::mapApiRoutes<\/a>"],[33.33333333333333,5,"<a href=\"Providers\/TelescopeServiceProvider.php.html#17\">App\\Providers\\TelescopeServiceProvider::register<\/a>"],[83.33333333333334,2,"<a href=\"Providers\/TelescopeServiceProvider.php.html#40\">App\\Providers\\TelescopeServiceProvider::hideSensitiveRequestDetails<\/a>"],[50,1,"<a href=\"Providers\/TelescopeServiceProvider.php.html#62\">App\\Providers\\TelescopeServiceProvider::gate<\/a>"],[100,1,"<a href=\"Providers\/ViewServiceProvider.php.html#15\">App\\Providers\\ViewServiceProvider::register<\/a>"],[100,1,"<a href=\"Providers\/ViewServiceProvider.php.html#25\">App\\Providers\\ViewServiceProvider::boot<\/a>"],[100,1,"<a href=\"Rules\/Recaptcha.php.html#15\">App\\Rules\\Recaptcha::__construct<\/a>"],[0,1,"<a href=\"Rules\/Recaptcha.php.html#27\">App\\Rules\\Recaptcha::passes<\/a>"],[0,1,"<a href=\"Rules\/Recaptcha.php.html#41\">App\\Rules\\Recaptcha::message<\/a>"],[100,1,"<a href=\"Rules\/SpamFree.php.html#14\">App\\Rules\\SpamFree::__construct<\/a>"],[100,2,"<a href=\"Rules\/SpamFree.php.html#26\">App\\Rules\\SpamFree::passes<\/a>"],[0,1,"<a href=\"Rules\/SpamFree.php.html#40\">App\\Rules\\SpamFree::message<\/a>"],[100,1,"<a href=\"Thread.php.html#17\">App\\Thread::boot<\/a>"],[100,1,"<a href=\"Thread.php.html#38\">App\\Thread::getRouteKeyName<\/a>"],[100,1,"<a href=\"Thread.php.html#42\">App\\Thread::replies<\/a>"],[100,1,"<a href=\"Thread.php.html#45\">App\\Thread::user<\/a>"],[100,1,"<a href=\"Thread.php.html#48\">App\\Thread::category<\/a>"],[100,1,"<a href=\"Thread.php.html#51\">App\\Thread::subscriptions<\/a>"],[100,1,"<a href=\"Thread.php.html#55\">App\\Thread::addReply<\/a>"],[100,2,"<a href=\"Thread.php.html#62\">App\\Thread::subscribe<\/a>"],[100,1,"<a href=\"Thread.php.html#68\">App\\Thread::unsubscribe<\/a>"],[100,1,"<a href=\"Thread.php.html#72\">App\\Thread::getPath<\/a>"],[100,1,"<a href=\"Thread.php.html#76\">App\\Thread::scopeFilter<\/a>"],[100,1,"<a href=\"Thread.php.html#87\">App\\Thread::isSubscribed<\/a>"],[100,1,"<a href=\"Thread.php.html#92\">App\\Thread::getIsSubscribedAttribute<\/a>"],[100,2,"<a href=\"Thread.php.html#97\">App\\Thread::hasBeenUpdated<\/a>"],[100,1,"<a href=\"Thread.php.html#103\">App\\Thread::getBodyAttribute<\/a>"],[100,4,"<a href=\"Thread.php.html#107\">App\\Thread::setSlugAttribute<\/a>"],[100,1,"<a href=\"Thread.php.html#124\">App\\Thread::bestReply<\/a>"],[100,1,"<a href=\"Thread.php.html#128\">App\\Thread::lock<\/a>"],[100,1,"<a href=\"Thread.php.html#132\">App\\Thread::unlock<\/a>"],[100,1,"<a href=\"Thread.php.html#136\">App\\Thread::pin<\/a>"],[100,1,"<a href=\"Thread.php.html#140\">App\\Thread::unpin<\/a>"],[100,1,"<a href=\"ThreadReply.php.html#16\">App\\ThreadReply::boot<\/a>"],[100,1,"<a href=\"ThreadReply.php.html#36\">App\\ThreadReply::user<\/a>"],[100,1,"<a href=\"ThreadReply.php.html#39\">App\\ThreadReply::thread<\/a>"],[100,1,"<a href=\"ThreadReply.php.html#43\">App\\ThreadReply::wasJustPublished<\/a>"],[100,3,"<a href=\"ThreadReply.php.html#47\">App\\ThreadReply::setBodyAttribute<\/a>"],[100,3,"<a href=\"ThreadReply.php.html#60\">App\\ThreadReply::markAsBest<\/a>"],[100,1,"<a href=\"ThreadReply.php.html#72\">App\\ThreadReply::isBest<\/a>"],[100,1,"<a href=\"ThreadReply.php.html#76\">App\\ThreadReply::getBodyAttribute<\/a>"],[100,1,"<a href=\"ThreadSubscription.php.html#11\">App\\ThreadSubscription::user<\/a>"],[0,1,"<a href=\"ThreadSubscription.php.html#15\">App\\ThreadSubscription::thread<\/a>"],[100,2,"<a href=\"Trending.php.html#9\">app\\Trending::getCacheKey<\/a>"],[100,1,"<a href=\"Trending.php.html#13\">app\\Trending::push<\/a>"],[100,1,"<a href=\"Trending.php.html#20\">app\\Trending::get<\/a>"],[0,1,"<a href=\"User.php.html#35\">App\\User::threadsWithGS<\/a>"],[0,1,"<a href=\"User.php.html#39\">App\\User::repliesWithGS<\/a>"],[100,1,"<a href=\"User.php.html#43\">App\\User::threads<\/a>"],[100,1,"<a href=\"User.php.html#47\">App\\User::replies<\/a>"],[100,1,"<a href=\"User.php.html#51\">App\\User::lastReply<\/a>"],[100,1,"<a href=\"User.php.html#55\">App\\User::activities<\/a>"],[0,1,"<a href=\"User.php.html#59\">App\\User::subscriptions<\/a>"],[0,1,"<a href=\"User.php.html#63\">App\\User::allPublic<\/a>"],[100,1,"<a href=\"User.php.html#67\">App\\User::read<\/a>"],[100,1,"<a href=\"User.php.html#72\">App\\User::visitedThreadCachedKey<\/a>"],[100,1,"<a href=\"User.php.html#76\">App\\User::getPath<\/a>"],[100,1,"<a href=\"User.php.html#80\">App\\User::favourites<\/a>"],[100,1,"<a href=\"Favourable.php.html#9\">Favourable::bootFavourable<\/a>"],[100,1,"<a href=\"Favourable.php.html#20\">Favourable::favourites<\/a>"],[100,3,"<a href=\"Favourable.php.html#29\">Favourable::favourite<\/a>"],[100,2,"<a href=\"Favourable.php.html#42\">Favourable::unfavourite<\/a>"],[100,1,"<a href=\"Favourable.php.html#55\">Favourable::isFavourited<\/a>"],[100,1,"<a href=\"Favourable.php.html#64\">Favourable::getIsFavouritedAttribute<\/a>"],[0,1,"<a href=\"Favourable.php.html#73\">Favourable::getFavouritesCountAttribute<\/a>"],[100,1,"<a href=\"RecordsActivity.php.html#6\">RecordsActivity::bootRecordsActivity<\/a>"],[100,1,"<a href=\"RecordsActivity.php.html#17\">RecordsActivity::recordActivity<\/a>"],[100,1,"<a href=\"RecordsActivity.php.html#24\">RecordsActivity::activity<\/a>"],[100,1,"<a href=\"Reputation.php.html#18\">Reputation::award<\/a>"],[100,1,"<a href=\"Reputation.php.html#22\">Reputation::unaward<\/a>"]], 'Method Complexity'))
+      .transition()
+      .duration(500)
+      .call(chart);
+
+    nv.utils.windowResize(chart.update);
+
+    return chart;
+  });
+
+  function getComplexityData(data, label) {
+    var values = [];
+    $.each(data, function(key) {
+      var value = Math.round(data[key][0]*100) / 100;
+      values.push({
+        x: value,
+        y: data[key][1],
+        class: data[key][2],
+        size: 0.05,
+        shape: 'diamond'
+      });
+    });
+
+    return [
+      {
+        key: label,
+        values: values,
+        color: "#4572A7"
+      }
+    ];
+  }
+});
+  </script>
+ </body>
+</html>

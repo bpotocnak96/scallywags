@@ -71,6 +71,9 @@ class UserTest extends TestCase
 		$this->assertEquals($r1->title,$favs[1]->favourited()->get()[0]->title);
 	}
 
+
+
+
 	// /** @test */
 	// public function it_has_thread_subscriptions() {
 	// 	$thread = factory('App\Thread')->create(['user_id'=>999]);
